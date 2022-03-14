@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DigiRepo">
         <activity
+            android:name=".Screen5"
+            android:exported="false" />
+        <activity
             android:name=".Screen4"
             android:exported="false" />
         <activity
