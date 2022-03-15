@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DigiRepo">
         <activity
+            android:name=".ConfirmPinScreen"
+            android:exported="false" />
+        <activity
+            android:name=".setpinscreen"
+            android:exported="false" />
+        <activity
             android:name=".Screen5"
             android:exported="false" />
         <activity

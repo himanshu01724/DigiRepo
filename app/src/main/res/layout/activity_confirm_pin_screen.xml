@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmPinScreen">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/test2" />
+
+    <TextView
+        android:layout_width="186dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="269dp"
+        android:text="Confirm 4-digit pin"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/inputcode1"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="341dp"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/inputcode2"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="341dp"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/inputcode3"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="341dp"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/inputcode4"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="341dp"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="113dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="406dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="Confirm"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+</RelativeLayout>

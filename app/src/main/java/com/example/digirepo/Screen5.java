@@ -2,6 +2,7 @@ package com.example.digirepo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -24,7 +25,7 @@ public class Screen5 extends AppCompatActivity {
         editText3 = findViewById(R.id.inputcode3);
         editText4 = findViewById(R.id.inputcode4);
         button = findViewById(R.id.clear);
-        button2 = findViewById(R.id.Next);    //activated once text is written
+        button2 = findViewById(R.id.Next);    //activated once text is written //and changes to next screen
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,8 +37,18 @@ public class Screen5 extends AppCompatActivity {
                 Toast.makeText(Screen5.this, "OTP send to **********", Toast.LENGTH_SHORT).show();
             }
         });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                pinscreen();
+            }
+        });
         editText4.addTextChangedListener(appear);
 
+    }
+    public void pinscreen(){
+        Intent intent = new Intent(this,setpinscreen.class);
+        startActivity(intent);
     }
     private TextWatcher appear = new TextWatcher() {
         @Override
