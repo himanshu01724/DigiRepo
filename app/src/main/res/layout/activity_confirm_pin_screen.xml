@@ -95,6 +95,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="139dp"
         android:layout_marginTop="406dp"
+        android:background="#D000BCD4"
         android:enabled="false"
         android:gravity="center"
         android:text="Confirm"

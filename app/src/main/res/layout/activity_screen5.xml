@@ -123,12 +123,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="161dp"
         android:layout_marginTop="406dp"
-        android:text="Next"
-        android:gravity="center"
-        android:textStyle="bold"
-        tools:ignore="TouchTargetSizeCheck"
+        android:background="#D000BCD4"
         android:enabled="false"
-        />
+        android:gravity="center"
+        android:text="Next"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
 
     //This button will appear after 20 seconds of inactivity
 </RelativeLayout>
