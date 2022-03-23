@@ -29,7 +29,7 @@ public class verifyNumber extends AppCompatActivity {
         final EditText inputMobile = findViewById(R.id.inputMobile);
        System.out.println("mobile number"+inputMobile.getText());
 
-        Button getOtp= (Button) findViewById(R.id.getotp);
+        Button getOtp= findViewById(R.id.getotp);
 
         final ProgressBar progressBar = findViewById(R.id.progressBar);
         Log.d("tag1","outside onclick");
