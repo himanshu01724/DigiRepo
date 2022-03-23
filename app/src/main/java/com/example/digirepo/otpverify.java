@@ -33,7 +33,7 @@ public class otpverify extends AppCompatActivity {
 
         TextView TextMobile = findViewById(R.id.TextMobile);
         TextMobile.setText(String.format(
-                "+91-%s", getIntent().getStringArrayExtra("mobile")
+                "+91-%s", getIntent().getStringExtra("mobile")
         ));
 
         inputcode1 = findViewById(R.id.inputcode1);
