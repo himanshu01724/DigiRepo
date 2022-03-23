@@ -16,7 +16,7 @@
             android:name=".setpinscreen"
             android:exported="false" />
         <activity
-            android:name=".Screen5"
+            android:name=".otpverify"
             android:exported="false" />
         <activity
             android:name=".Screen4"
@@ -25,7 +25,7 @@
             android:name=".Screen3"
             android:exported="false" />
         <activity
-            android:name=".Screen2"
+            android:name=".verifyNumber"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

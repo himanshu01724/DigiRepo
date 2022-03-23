@@ -40,11 +40,11 @@ public class Screen4 extends AppCompatActivity {
     }
     public void openScreen3(){
 
-        Intent intent = new Intent(this,Screen5.class);
+        Intent intent = new Intent(this,otpverify.class);
         startActivity(intent);
     }
     public void yes(){
-        Intent intent = new Intent(this,Screen2.class);   //If yes going back to page 2
+        Intent intent = new Intent(this,verifyNumber.class);   //If yes going back to page 2
         startActivity(intent);
     }
     public void CreateAlert(){

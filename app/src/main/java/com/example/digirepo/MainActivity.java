@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openScreen2(){
-        Intent intent = new Intent(this,Screen2.class);
+        Intent intent = new Intent(this,verifyNumber.class);
         startActivity(intent);
     }
 }
