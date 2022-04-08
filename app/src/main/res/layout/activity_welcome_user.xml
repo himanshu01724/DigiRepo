@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeUser">
+
+    <ImageView
+        android:layout_width="197dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="-27dp"
+        android:src="@drawable/test2"></ImageView>
+
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-7dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
+        android:background="#D000BCD4"
+        android:text="Next"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:iconTint="#BF03A9F4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="159dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="190dp"
+        android:text="Welcome USER,"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="159dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="248dp"
+        android:text="Your UID is "
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="243dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="63dp"
+        android:ems="10"
+        android:hint="A819XX101OP09"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

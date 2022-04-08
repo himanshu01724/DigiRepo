@@ -7,13 +7,14 @@
     tools:context=".dashboard">
 
     <ImageView
-        android:layout_width="228dp"
-        android:layout_height="175dp"
+        android:layout_width="197dp"
+        android:layout_height="140dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="85dp"
-        android:src="@drawable/test2">
-    </ImageView>
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="-27dp"
+        android:src="@drawable/test2"></ImageView>
 
     <ImageView
         android:layout_width="40dp"
@@ -22,18 +23,102 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="36dp"
         android:layout_marginBottom="42dp"
-        android:src="@drawable/home">
-
-    </ImageView>
+        android:src="@drawable/home"></ImageView>
 
     <ImageView
-        android:layout_width="48dp"
-        android:layout_height="68dp"
+        android:layout_width="34dp"
+        android:layout_height="49dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="39dp"
         android:src="@drawable/repo" />
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="114dp"
+        android:src="@drawable/lab1"></ImageView>
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/lab2"></ImageView>
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="177dp"
+        android:src="@drawable/lab3"></ImageView>
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/lab4"></ImageView>
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="402dp"
+        android:layout_marginEnd="177dp"
+        android:src="@drawable/lab5"></ImageView>
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="399dp"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/lab6"></ImageView>
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="544dp"
+        android:layout_marginEnd="177dp"
+        android:src="@drawable/lab7"></ImageView>
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="541dp"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/lab8"></ImageView>
 
     <TextView
         android:id="@+id/textView2"
@@ -44,6 +129,17 @@
         android:layout_marginStart="37dp"
         android:layout_marginBottom="15dp"
         android:text="HOME"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="14dp"
+        android:text="ISSUED REPORT"
         android:textStyle="bold" />
 
 

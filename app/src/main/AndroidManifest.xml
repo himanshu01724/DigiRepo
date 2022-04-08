@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DigiRepo">
         <activity
+            android:name=".ReportFound"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeUser"
+            android:exported="false" />
+        <activity
             android:name=".ConfirmPinScreen"
             android:exported="false" />
         <activity

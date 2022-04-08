@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android-Studio/app/src/main/res/layout/activity_dashboard.xml" value="0.2653985507246377" />
+        <entry key="..\:/Android-Studio/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
+        <entry key="..\:/Android-Studio/app/src/main/res/layout/activity_report_found.xml" value="0.33" />
         <entry key="..\:/Android-Studio/app/src/main/res/layout/activity_screen2.xml" value="0.2653985507246377" />
         <entry key="..\:/Android-Studio/app/src/main/res/layout/activity_screen3.xml" value="0.25" />
         <entry key="..\:/Android-Studio/app/src/main/res/layout/activity_screen4.xml" value="0.33" />
         <entry key="..\:/Android-Studio/app/src/main/res/layout/activity_screen5.xml" value="0.2653985507246377" />
         <entry key="..\:/Android-Studio/app/src/main/res/layout/activity_setpinscreen.xml" value="0.33" />
+        <entry key="..\:/Android-Studio/app/src/main/res/layout/activity_welcome_user.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_confirm_pin_screen.xml" value="0.2006340579710145" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
         <entry key="app/src/main/res/layout/activity_screen2.xml" value="0.2006340579710145" />
